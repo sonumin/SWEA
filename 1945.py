@@ -7,5 +7,5 @@ for tc in range(1,N+1):
         while K % numList[i]==0:
             cntList[i]+=1
             K/=numList[i]
-    print(f'#{tc}',end=' ')
+    print(f'#{tc}',end='  ')
     print(*cntList)
